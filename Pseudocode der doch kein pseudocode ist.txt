@@ -1,0 +1,31 @@
+Module Module1
+
+	
+	Sub Main()
+
+		Dim smth As Single = "Irgendetwas"
+		Dim randomNumber As Integer = 15
+		
+		Console.WriteLine(smth)
+		Console.ReadLine()
+		
+		For count = 0 To 9
+			
+			randomNumber = (randomNumber + 1)
+		Next
+		
+		Select Case randomNumber
+
+			Case 1 To 10
+				Console.WriteLine("Between 1 and 10")
+
+			Case 11 To 100
+				Console.WriteLine("Greater Than 10")
+
+		End Select
+		Console.ReadLine()
+
+ 	End Sub 
+
+
+End Module
